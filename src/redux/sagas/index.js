@@ -38,5 +38,5 @@ function* newsActionWatcher() {
 }
 
 export default function* rootSaga() {
-  yield all([jokeActionWatcher(), newsActionWatcher()]);
+  yield all([newsActionWatcher(), jokeActionWatcher()]);
 }

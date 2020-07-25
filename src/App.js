@@ -1,13 +1,23 @@
 import React from "react";
 import "./styles.css";
-import Joke from "./components/Joke";
+
+import { Switch, Route } from 'react-router-dom'
+
+import Joke from "./components/Joke/Joke";
 import News from "./components/News";
+import VirusCount from './components/Covid/VirusCount'
+import Navigation from './components/Navigation/Navigation'
 
 export default function App() {
   return (
     <div className="App">
-      <News />
-      <Joke />
+      <Navigation />
+
+      <Switch>
+        <Route exact path="/"> <News /> </Route>
+        <Route path="/jokes"> <Joke /> </Route>
+        <Route path="/covid"> <VirusCount />  </Route>
+      </Switch>
     </div>
   );
 }

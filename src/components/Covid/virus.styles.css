@@ -1,0 +1,28 @@
+.virus-count-container{
+    width: 50%;
+    margin: 30px auto;
+}
+
+.virus-count-number{
+    height: 70px;
+}
+
+.virus-count-title{
+    font-size: 55px;
+    font-family: 'Lobster', cursive;
+}
+
+.virus-count{
+    font-size: 95px; 
+    color: #555553
+}
+
+.virus-count-select{
+    border-color: transparent; 
+    border-bottom: 4px solid rgb(163, 123, 134);
+    background-color: rgb(255, 240, 240);
+    font-size: 1.6em; 
+    height: 2em;
+    margin: 2em auto;
+    text-align: center;
+}

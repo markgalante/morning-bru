@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/morning-bru/static/css/main.f2c4bcd5.chunk.css",
+    "main.js": "/morning-bru/static/js/main.c5cee32b.chunk.js",
+    "main.js.map": "/morning-bru/static/js/main.c5cee32b.chunk.js.map",
+    "runtime-main.js": "/morning-bru/static/js/runtime-main.2893ef8e.js",
+    "runtime-main.js.map": "/morning-bru/static/js/runtime-main.2893ef8e.js.map",
+    "static/js/2.e31e8101.chunk.js": "/morning-bru/static/js/2.e31e8101.chunk.js",
+    "static/js/2.e31e8101.chunk.js.map": "/morning-bru/static/js/2.e31e8101.chunk.js.map",
+    "index.html": "/morning-bru/index.html",
+    "precache-manifest.4b9a8d0e6d06dd8025a0a38f5f784c4a.js": "/morning-bru/precache-manifest.4b9a8d0e6d06dd8025a0a38f5f784c4a.js",
+    "service-worker.js": "/morning-bru/service-worker.js",
+    "static/css/main.f2c4bcd5.chunk.css.map": "/morning-bru/static/css/main.f2c4bcd5.chunk.css.map",
+    "static/js/2.e31e8101.chunk.js.LICENSE.txt": "/morning-bru/static/js/2.e31e8101.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2893ef8e.js",
+    "static/js/2.e31e8101.chunk.js",
+    "static/css/main.f2c4bcd5.chunk.css",
+    "static/js/main.c5cee32b.chunk.js"
+  ]
+}

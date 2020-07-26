@@ -1,25 +1,25 @@
-.joke-container{
-    width: 75%;
+.joke-container {
+    width : 75%;
     margin: 30px auto;
 }
 
-.joke-header{
-    font-size: 55px;
+.joke-header {
+    font-size  : 55px;
     font-family: 'Lobster', cursive;
 }
 
-.joke{
-    font-size: 32px;
+.joke {
+    font-size  : 32px;
     font-weight: 100;
 }
 
-.joke-fetch-button{
-    height: 3em;
-    width: 8em;
+.joke-fetch-button {
+    height          : 3em;
+    width           : 8em;
     background-color: rgb(133, 100, 100);
-    border: transparent;
-    color: rgb(255, 240, 240);
-    cursor: pointer;
-    font-size: 2rem;
-    border-radius: 50%;
+    border          : transparent;
+    color           : rgb(255, 240, 240);
+    cursor          : pointer;
+    font-size       : 2rem;
+    border-radius   : 50%;
 }

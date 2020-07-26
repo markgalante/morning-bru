@@ -22,7 +22,7 @@ During my continous learning about [React](https://reactjs.org/), I dedicated so
 
 Clone the repository into your local system
 ```
-   $ git clone https://github.com/markgalante/crwn-clothing.git
+   $ git clone https://github.com/markgalante/morning-bru.git
 ```
 
 Install dependencies

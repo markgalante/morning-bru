@@ -8,7 +8,7 @@ const NewsPanel = ({ title, description, urlToImage }) => {
                 <p>{description}</p>
             </div>
             <div className="news-article-image">
-                <img src={urlToImage} alt={title} />
+                <img className="article-image" src={urlToImage} alt={title} />
             </div>
         </div>
     )

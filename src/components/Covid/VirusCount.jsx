@@ -6,11 +6,11 @@ import MiniSpinner from '../Spinners/MiniSpinner'
 const VirusCount = () => {
     const [count, setCount] = useState(undefined);
     const [countFetchFail, setCountFetchFail] = useState(false)
-    const [country, setCountry] = useState("south-africa");
+    const [country, setCountry] = useState('bolivia');
     const [loading, setLoading] = useState(false);
     const [countryOptions, setCountryOptions] = useState([{
-        slug: "",
-        Country: "Loading"
+        slug: "bolivia",
+        Country: "Bolivia"
     }]);
 
     useEffect(() => {
@@ -39,7 +39,6 @@ const VirusCount = () => {
     return (
         <div className="virus-count-container">
             <h2 className="virus-count-title">Cases</h2>
-            <datalist></datalist>
             <select className="virus-count-select" onChange={(e) => setCountry(e.target.value)}>
                 {selectCountry}
             </select>

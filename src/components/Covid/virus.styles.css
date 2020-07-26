@@ -1,28 +1,50 @@
-.virus-count-container{
-    width: 50%;
+.virus-count-container {
+    width : 50%;
     margin: 30px auto;
 }
 
-.virus-count-number{
+.virus-count-number {
     height: 70px;
 }
 
-.virus-count-title{
-    font-size: 55px;
+.virus-count-title {
+    font-size  : 55px;
     font-family: 'Lobster', cursive;
 }
 
-.virus-count{
-    font-size: 95px; 
-    color: #555553
+.virus-count {
+    font-size: 95px;
+    color    : #555553
 }
 
-.virus-count-select{
-    border-color: transparent; 
-    border-bottom: 4px solid rgb(163, 123, 134);
+.virus-count-select {
+    border-color    : transparent;
+    border-bottom   : 4px solid rgb(163, 123, 134);
     background-color: rgb(255, 240, 240);
-    font-size: 1.6em; 
-    height: 2em;
-    margin: 2em auto;
-    text-align: center;
+    font-size       : 1.6em;
+    height          : 2em;
+    margin          : 2em auto;
+}
+
+@media only screen and (max-width: 748px) {
+
+    .virus-count-title {
+        margin: 5px;
+    }
+
+    .virus-count-container {
+        width : 80%;
+        margin: 15px auto;
+    }
+
+    .virus-count-select {
+        border-color    : transparent;
+        border-bottom   : 4px solid rgb(163, 123, 134);
+        background-color: rgb(255, 240, 240);
+        font-size       : 1.6em;
+        height          : 2em;
+        width           : 100%;
+        margin          : 1em auto;
+        text-align      : center;
+    }
 }

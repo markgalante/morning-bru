@@ -4,8 +4,8 @@
     display: flex;
     justify-content: space-between;
     font-size: 23px;
-    font-stretch: extra-expanded;
     font-family: 'Lobster', cursive;
+    width: 100%;
 }
 
 .nav-bar-title{
@@ -38,4 +38,29 @@
 .nav-item a {
     text-decoration: none;
     color: rgb(255, 240, 240);
+}
+
+@media only screen and (max-width: 748px){
+
+    .nav-bar{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .nav-bar-title{
+        margin: auto;
+    }
+
+    .nav-items{
+        display: flex;
+        flex-direction: row;
+        margin: 0px 0px 1em;
+        padding: 0; 
+    }
+
+    .nav-item{
+        margin: 5px;
+        width: 100px;
+    }   
 }
